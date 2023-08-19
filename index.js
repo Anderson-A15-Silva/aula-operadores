@@ -82,10 +82,10 @@ const segundoNumero = prompt("Digite outro número:")
 
 const comparacaoMaior = Number(primeiroNumero) > Number(segundoNumero)
 const comparacaoIgual = Number(primeiroNumero) == Number(segundoNumero)
-const comparacaoDivisivel = Number(primeiroNumero) / Number(segundoNumero)
-const comparacaoDivisivel2 = Number(segundoNumero) / Number(primeiroNumero)
-const respostaDivisivel1 = comparacaoDivisivel !== NaN
-const respostaDivisivel2 = comparacaoDivisivel2 !== NaN
+const comparacaoDivisivel = Number(primeiroNumero) % Number(segundoNumero)
+const comparacaoDivisivel2 = Number(segundoNumero) % Number(primeiroNumero)
+const respostaDivisivel1 = comparacaoDivisivel === 0
+const respostaDivisivel2 = comparacaoDivisivel2 === 0
 
 console.log("O primeiro numero é maior que segundo?", comparacaoMaior)
 console.log("O primeiro numero é igual ao segundo?", comparacaoIgual)
