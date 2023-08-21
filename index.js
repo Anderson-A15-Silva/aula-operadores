@@ -92,3 +92,61 @@ console.log("O primeiro numero é igual ao segundo?", comparacaoIgual)
 console.log("O primeiro numero é divisível pelo segundo?", respostaDivisivel1)
 console.log("O segundo numero é divisível pelo primeiro?", respostaDivisivel2)
 */
+
+/*
+Desafio 1
+Resposta:
+
+const grausFahrenheit = 77
+const medidaKelvin = "K"
+const conversao = (grausFahrenheit - 32) * (5/9) + 273.15
+console.log(conversao, medidaKelvin)
+
+const grausCelcius = 60
+const medidaFahrenheit = "F"
+const conversao2 = grausCelcius * (9/5) + 32
+console.log(conversao2, medidaFahrenheit)
+
+const grausCelcius2 = 30
+const medidaFahrenheit2 = "F"
+const conversao3 = grausCelcius2 * (9/5) + 32
+console.log(conversao3, medidaFahrenheit2)
+
+const grausCelcius3 = 60
+const medidaFahrenheit3 = "F"
+const conversao4 = grausCelcius3 * (9/5) + 32
+const resultado = (conversao4 - 32) * (5/9) + 273.15
+console.log(resultado, medidaFahrenheit3)
+
+const grausCelcius4 = prompt("Insira a quantidade de graus Celsius que você quer converter:")
+const conversao5 = grausCelcius4 * (9/5) + 32
+console.log(conversao5, "F")
+const resultado2 = (conversao5 - 32) * (5/9) + 273.15
+console.log(resultado2, "K")
+*/
+
+/*
+Desafio 2
+Resposta:
+
+const valorQuilowatthora = 0.05
+const consumoQuilowatthora = 280
+const resultado = valorQuilowatthora * consumoQuilowatthora
+console.log(resultado)
+
+const valorQuilowatthora = 0.05
+const consumoQuilowatthora = 280
+const resultado = valorQuilowatthora * consumoQuilowatthora
+console.log(resultado)
+const desconto = Number(resultado) * 0.15
+console.log(desconto)
+*/
+
+/*
+Desafio 3
+Resposta (Incompleta)
+
+const libra = 20
+const conversaoLibra = libra * 0,453592
+console.log("20lb equivalem a", Number(conversaoLibra), "kg")
+*/
