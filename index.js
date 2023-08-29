@@ -144,9 +144,36 @@ console.log(desconto)
 
 /*
 Desafio 3
-Resposta (Incompleta)
+Resposta:
+
 
 const libra = 20
-const conversaoLibra = libra * 0,453592
-console.log("20lb equivalem a", Number(conversaoLibra), "kg")
+const conversaoLibra = libra * 0.453592
+console.log("20lb equivalem a ", Number(conversaoLibra), "kg")
+
+
+const onça = 10.5
+const conversaoOnça = onça * 0.0283495
+console.log("10.5oz equivalem a ", Number(conversaoOnça), "kg")
+
+const milha = 20
+const conversaoMilha = milha * 1609.34
+console.log("100mi equivalem a ", Number(conversaoMilha), "m")
+
+const pes = 50
+const conversaoPes = pes * 0.3048
+console.log("50ft equivalem a ", Number(conversaoMilha), "m")
+
+const galao = 50
+const conversaoGalao = galao * 3.78541
+console.log("103.55gal equivalem a ", Number(conversaoGalao), "l")
+
+const xicara = 50
+const conversaoXicara = xicara * 0.2
+console.log("450xic equivalem a ", Number(conversaoXicara), "l")
+
+
+const numeroUsuario = prompt("Digite um número para ser convertido de libra para kilograma:")
+const conversaoUsuario = numeroUsuario *  0.453592
+console.log(Number(numeroUsuario), "lb é equivalente a ", Number(conversaoUsuario))
 */
